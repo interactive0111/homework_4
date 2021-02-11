@@ -1,0 +1,136 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant:italic,700italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,500italic&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body{
+color: #9a9a9a;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+header{
+	text-align: center;
+	font-size: 16px;
+	line-height: 28px;
+	word-spacing: 40px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+h1{
+	font-family: "Lora"
+	font-style: normal;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 67px;
+	text-indent: 50px;
+	color: #10375C;
+}
+h1 span{
+	color: #DD2C00;
+	text-shadow:-5px 1px 1px #000, 1px -4px 1px rgb(33, 110, 37);
+}
+.subtitle span{
+	font-family: "Montserrat"
+	font-style: italic;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 67px;
+	text-decoration:underline;
+	color: green;
+}
+.subtitle h2{
+	font-family: "Lora";
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+color: #10375C;
+text-shadow: 1px -10px 1px rgba(0, 0, 0, 0.39);
+}
+.subtitle{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+}
+.text h2{
+	font-family: "Lora";
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+color: whitesmoke;
+text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.39),1px 3px 1px rgba(0, 0, 0, 0.39)
+}
+.text p{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.39)
+}
+.beta {
+	font-family: "Cormorant";
+font-style:italic;
+font-weight: bold;
+font-size: 40px;
+line-height: 51px;
+text-decoration:line-through;
+color: orange;
+text-shadow: 2px 2px 1px rgba(235, 14, 14, 0.8)
+}
+.list{
+	font-family: "Cormorant"
+	font-style: italic;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+text-shadow: 2px 2px 1px #000
+}
+.footer {
+	font-family: "Lora";
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 67px;
+color: white;
+text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.50)
+}
+.footer > p{
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #F8F8F8;
+text-shadow: 3px 3px 3px rgba(185, 9, 9, 0.5)
+}
